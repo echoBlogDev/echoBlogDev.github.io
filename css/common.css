@@ -556,9 +556,10 @@ footer>div>a:hover {
 
 #hire-page .title-container,
 #hire-page .list-container {
+    box-sizing: border-box;
     margin: auto;
-   width: 100%;
-   max-width: 582px;
+    width: 100%;
+    max-width: 582px;
 }
 
 #hire-page h2 {
