@@ -646,6 +646,48 @@ footer>div>a:hover {
     margin: 40px auto;
 }
 
+#instagram-page {
+    width: 96%;
+    max-width: 1194px;
+    margin: 40px auto;
+}
+
+#instagram-page h1 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+#instagram-page h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #747474;
+    margin-top: 8px;
+}
+
+#instagram-page h2 img {
+    width: 24px;
+    margin-right: 8px;
+}
+
+#instagram-page .list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+#instagram-page .list > canvas {
+    width: 23.5%;
+    height: auto;
+    background-color: red;
+    margin-bottom: 2%;
+}
+
+#instagram-page .list > canvas:not(:nth-child(4n)) {
+    margin-right: 2%;
+}
+
 @media screen and (max-width: 1260px) {
     .title, .noticeBox {
         width: 100%;
@@ -835,6 +877,36 @@ footer>div>a:hover {
     #hire-page .list-container > div > div:first-child {
         padding: 24px 3%;
     }
+
+    #instagram-page {
+        margin: 24px 3%;
+        width: auto;
+     }
+ 
+     #instagram-page h1 {
+         font-weight: 500;
+         font-size: 36px;
+         line-height: 56px;
+     }
+ 
+     #instagram-page .list {
+         margin-top: 40px;
+     }
+ 
+     #instagram-page .list > canvas {
+         width: 49%;
+         height: auto;
+         margin-bottom: 2%;
+         background-color: green;
+     }
+ 
+     #instagram-page .list > canvas:not(:nth-child(4n)) {
+         margin-right: 0;
+     }
+ 
+     #instagram-page .list > canvas:not(:nth-child(2n)) {
+         margin-right: 2%;
+     }
 }
 
 /* Mobile */
@@ -1036,5 +1108,35 @@ footer>div>a:hover {
         margin-bottom: 0;
         font-size: 14px;
         line-height: 24px;
+    }
+
+    #instagram-page {
+       margin: 24px 4%;
+       width: auto;
+    }
+
+    #instagram-page h1 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    #instagram-page .list {
+        margin-top: 24px;
+    }
+
+    #instagram-page .list > canvas {
+        width: 48%;
+        height: auto;
+        margin-bottom: 4%;
+        background-color: blue;
+    }
+
+    #instagram-page .list > canvas:not(:nth-child(4n)) {
+        margin-right: 0;
+    }
+
+    #instagram-page .list > canvas:not(:nth-child(2n)) {
+        margin-right: 4%;
     }
 }
