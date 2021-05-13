@@ -1,13 +1,1 @@
-#map-marker {
-transform: translate(-60px, -45px);
-  width: 120px;
-  height: 120px;
-  text-align: center;
-  padding-top: 10px;
-  font-weight: bold;
-  font-size: 14px;
-  background-image: url("/img/place.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: top center;
-}
+#map-marker{transform:translate(-60px,-45px);width:120px;height:120px;text-align:center;padding-top:10px;font-weight:700;font-size:14px;background-image:url(/img/place.svg);background-repeat:no-repeat;background-size:100%;background-position:top center}
